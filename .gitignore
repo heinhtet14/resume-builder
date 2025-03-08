@@ -5,7 +5,9 @@ build/
 dist/
 wheels/
 *.egg-info
-.env
+
 
 # Virtual environments
 .venv
+
+/home/jerome/resume_builder/resume-builder/.env

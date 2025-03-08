@@ -1,0 +1,149 @@
+{
+  "contact": {
+    "name": "Hein Htet @ Jeremy",
+    "email": "heinhtet.1405@gmail.com",
+    "phone": "+66 994391816",
+    "linkedin": "",
+    "website": null,
+    "address": null
+  },
+  "summary": "Highly motivated and results-oriented Research Assistant and aspiring Machine Learning Engineer with 2+ years of experience in Deep Learning, Computer Vision, and LLM applications. Proven ability to research, develop, and implement innovative AI solutions using TensorFlow, PyTorch, and Hugging Face. Passionate about leveraging cutting-edge technologies to solve real-world problems and eager to contribute to a team focused on innovation and practical AI development.",
+  "skills": {
+    "technical": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Hugging Face",
+      "LLMs",
+      "GPT",
+      "BERT",
+      "LLaMA",
+      "Computer Vision",
+      "Object Detection",
+      "C/C++",
+      "MLOps",
+      "OpenCV",
+      "NLP",
+      "GAN",
+      "Diffusion Model",
+      "MATLAB",
+      "ROS",
+      "Docker"
+    ],
+    "soft": [
+      "Innovation",
+      "Collaboration",
+      "Communication",
+      "Problem-solving",
+      "Leadership"
+    ],
+    "languages": null,
+    "certifications": null
+  },
+  "experience": [
+    {
+      "title": "Research Assistant",
+      "company": "KMUTT Deep Learning Lab",
+      "location": "",
+      "duration": "Sept 2022 - Present",
+      "responsibilities": [
+        "Researched and implemented Deep Learning models for Voice Conversion, NLP, Computer Vision, and Graph Convolution Networks.",
+        "Applied GANs and Diffusion Models for image generation and manipulation.",
+        "Collaborated with National Science and Technology Development Agency (NSTDA) on Deep Learning research projects.",
+        "Served as a Teacher Assistant for a Deep Learning Bootcamp, guiding students on practical implementation and model optimization."
+      ],
+      "achievements": null
+    },
+    {
+      "title": "Student Researcher",
+      "company": "Singapore University of Technology and Design (SUTD)",
+      "location": "",
+      "duration": "June 2024 - Present",
+      "responsibilities": [
+        "Benchmarked LLMs (OpenAI, Llama3, Mistral, Gemini AI) for Qualitative Analysis applications using Ollama and LLM Studio.",
+        "Fine-tuned transformer models for specific NLP tasks, improving performance and efficiency."
+      ],
+      "achievements": null
+    },
+    {
+      "title": "Student Researcher",
+      "company": "Singapore Panasonic Research Lab",
+      "location": "",
+      "duration": "Oct 2023 - Present",
+      "responsibilities": [
+        "Led the ORB-SLAM Refactoring project, overseeing a team and ensuring successful implementation.",
+        "Refactored SLAM algorithms, OpenCV, and Sparse Bundle Adjustment algorithms using C/C++.",
+        "Applied Linear/Non-Linear Optimization techniques to enhance performance and efficiency of SLAM algorithms."
+      ],
+      "achievements": null
+    },
+    {
+      "title": "Founder",
+      "company": "CLASH OF ROBOTS",
+      "location": "",
+      "duration": "Sept 2018 - Present",
+      "responsibilities": [
+        "Founded the first robotics competition in Myanmar, fostering a community of robotics enthusiasts and promoting STEM education."
+      ],
+      "achievements": null
+    }
+  ],
+  "education": [
+    {
+      "degree": "Electronic and Infocommunication Engineering (Year 3)",
+      "institution": "King Mongkut\u2019s University of Technology Thonburi (KMUTT)",
+      "location": "Thailand",
+      "year": "2022 - Present",
+      "gpa": null,
+      "highlights": null
+    },
+    {
+      "degree": "Electronics Engineering",
+      "institution": "WEST YANGON TECHNOLOGICAL UNIVERSITY",
+      "location": "Yangon",
+      "year": "2015-2020",
+      "gpa": null,
+      "highlights": null
+    }
+  ],
+  "projects": [
+    {
+      "name": "ORBSLAM Refactoring",
+      "description": "Refactored and optimized ORB-SLAM algorithms using C/C++ and OpenCV, improving performance and maintainability.",
+      "technologies": [
+        "C/C++",
+        "OpenCV",
+        "SLAM"
+      ],
+      "url": null,
+      "duration": null
+    },
+    {
+      "name": "Voice Conversion For Alaryngeal Speakers using WavLM, KNN VC",
+      "description": "Developed a voice conversion system for alaryngeal speakers using WavLM and KNN VC, improving communication accessibility.",
+      "technologies": [
+        "WavLM",
+        "KNN VC",
+        "Voice Conversion",
+        "Deep Learning"
+      ],
+      "url": null,
+      "duration": null
+    },
+    {
+      "name": "Burmese GPT using Llama2 Model and WordPiece BPE Tokenizer",
+      "description": "Built a Burmese GPT model using Llama2 and WordPiece BPE Tokenizer, enabling natural language processing in Burmese.",
+      "technologies": [
+        "Llama2",
+        "WordPiece BPE",
+        "NLP",
+        "LLMs"
+      ],
+      "url": null,
+      "duration": null
+    }
+  ],
+  "certifications": [],
+  "publications": null,
+  "awards": null
+}

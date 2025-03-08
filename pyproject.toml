@@ -1,0 +1,19 @@
+[project]
+name = "resume-builder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2>=3.1.5",
+    "langchain>=0.3.19",
+    "langchain-anthropic>=0.3.7",
+    "langchain-community>=0.3.18",
+    "langchain-core>=0.3.37",
+    "langchain-google-genai>=2.0.11",
+    "langchain-openai>=0.3.6",
+    "langgraph>=0.2.74",
+    "pandas>=2.2.3",
+    "pypdf>=5.3.0",
+    "weasyprint>=64.1",
+]

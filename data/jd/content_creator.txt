@@ -1,0 +1,32 @@
+We are seeking a talented and innovative Machine Learning Engineer to join our team. The ideal candidate will be responsible for developing advanced machine learning models, creating AI application prototypes, and designing production-ready AI systems. 
+
+Key Responsibilities: 
+
+Design and implement machine learning models, focusing on Computer Vision (e.g., image classification, object detection, segmentation) and LLMs (e.g., text generation, embeddings, fine-tuning transformers). 
+Lextech possesses many proprietary techniques that ensures performance; however, suggestion and trying new thing is encouraged 
+While data labelling is not part of the responsibility, guiding and specifying labelling format is part of the responsibility 
+Research, experiment, and apply state-of-the-art deep learning techniques for image, video, voice and text analytics. 
+Build and optimize model architectures using frameworks like TensorFlow, PyTorch, and Hugging Face. 
+Create proof-of-concept AI application prototypes to validate innovative solutions 
+Design and implement scalable production systems for AI applications 
+Evaluate and optimize machine learning algorithms to meet with resource requirements 
+Document technical specifications and model performance 
+Required Qualifications: 
+
+Bachelor or Master's in Computer Science, Machine Learning, Data Science, or related technical field 
+At least 2+ years of professional experience in develop or maintain machine learning-relating application 
+Strong programming skills in Python, with expertise in:  
+TensorFlow, PyTorch, or similar deep learning frameworks 
+ML model optimization techniques for deployment 
+Strong expertise in Computer Vision techniques (object detection, object classification, object tracking, object identification, LVM, etc.) 
+Experience with LLMs (fine-tuning, training, and deploying models like GPT, BERT, LLaMA, etc.).  
+Proficiency in machine learning techniques – we provide services in Textual, Voice, and Vision analytics.  
+Experience with cloud-based ML deployment (AWS, Google Cloud, or Azure) is a big plus. 
+While not mandatory, we expect you to familiar with MLOps technology like Docker, ML Model Serving, API development CI/CD for model deployment. 
+Strong mathematical background in linear algebra, statistics, and probability 
+Additional Requirement: 
+
+While we are seeking those with excellent problem-solving abilities, practicality and sustainability are also a big concern. 
+Effective communication skills: able to communicate complex concepts to non-technical personnel. You will be working with a lot of non-technical personnel. 
+We are not looking for developers; we are looking for machine learning engineer or data scientist who can develops if needed. 
+While we normally allocate dedicated personnel for text, vision, and voices – time would come where we share resources; so keep you mind open. 

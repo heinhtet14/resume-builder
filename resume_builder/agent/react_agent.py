@@ -1,3 +1,5 @@
+# Modifications to resume_builder/agent/react_agent.py
+
 import os
 from langchain.agents import AgentExecutor, create_react_agent
 from langchain.tools import Tool
@@ -7,6 +9,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from resume_builder.tools.resume_parser import ResumeParser
 from resume_builder.tools.job_analyzer import JobDescriptionAnalyzer
 from resume_builder.tools.resume_generator import ResumeGenerator
+from resume_builder.tools.keyword_processor import KeywordProcessor  # New tool
 
 def create_resume_agent(model_name="gemini-1.5-pro", verbose=True, api_key=None):
     """Create a ReAct agent for resume optimization."""
@@ -19,6 +22,7 @@ def create_resume_agent(model_name="gemini-1.5-pro", verbose=True, api_key=None)
     resume_parser = ResumeParser(model_name=model_name, api_key=api_key)
     job_analyzer = JobDescriptionAnalyzer(model_name=model_name, api_key=api_key)
     resume_generator = ResumeGenerator(model_name=model_name, api_key=api_key)
+    keyword_processor = KeywordProcessor()  # New tool instantiation
     
     # Define tools for the agent
     tools = [
@@ -33,10 +37,15 @@ def create_resume_agent(model_name="gemini-1.5-pro", verbose=True, api_key=None)
             description="Analyze a job description to extract key requirements, skills, and values."
         ),
         Tool(
+            name="KeywordProcessor",
+            func=keyword_processor,
+            description="Process user-provided keywords and select the most relevant ones for the resume. Input should be a dictionary with 'keywords' (list of keywords), 'max_count' (max number to select), and 'job' (JobDescription object)."
+        ),
+        Tool(
             name="ResumeGenerator",
             func=resume_generator,
-            description="""Generate a tailored resume based on the applicant's information and job description analysis. 
-                         Input should be a dictionary with two keys: 'resume' (a Resume object) and 'job' (a JobDescription object)."""
+            description="""Generate a tailored resume based on the applicant's information, job description analysis, and selected keywords. 
+                         Input should be a dictionary with three keys: 'resume' (a Resume object), 'job' (a JobDescription object), and 'keywords' (list of keywords)."""
         )
     ]
     
@@ -59,6 +68,8 @@ def create_resume_agent(model_name="gemini-1.5-pro", verbose=True, api_key=None)
     ... (this Thought/Action/Action Input/Observation can repeat multiple times)
     Thought: I now know the final answer
     Final Answer: the final answer to the original input question
+
+    The user may provide keywords they want to include in their resume. Make sure to process these keywords and incorporate the most relevant ones (up to 10) in the optimized resume.
 
     Begin!
 

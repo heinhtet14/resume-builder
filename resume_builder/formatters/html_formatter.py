@@ -25,7 +25,13 @@ class HtmlFormatter:
         Returns:
             The formatted HTML as a string
         """
-        template = self.env.get_template(self.template_name)
+        try:
+            template = self.env.get_template(self.template_name)
+        except Exception as e:
+            print(f"Error loading template {self.template_name}: {str(e)}")
+            print("Falling back to harvard.html template")
+            template = self.env.get_template("harvard.html")
+            
         html_content = template.render(resume=resume)
         
         if output_path:

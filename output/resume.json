@@ -7,54 +7,47 @@
     "website": null,
     "address": null
   },
-  "summary": "Results-oriented Research Assistant and aspiring Machine Learning Engineer with 2+ years of experience developing and implementing innovative AI solutions using TensorFlow, PyTorch, and Hugging Face. Proven ability to research, develop, and evaluate Deep Learning, Computer Vision (Object Detection), and Large Language Model (LLM, GPT, BERT, LLaMA) applications, including LVM and Textual Analytics. Expertise in leveraging cloud-based ML deployment platforms (AWS, Google Cloud, and Azure) to solve real-world problems.  Passionate about contributing to a team focused on practical AI development and innovation, applying strong collaboration, communication, and problem-solving skills. Solid foundation in probability and statistical modeling.",
+  "summary": "Highly motivated and results-oriented Research Assistant with 2+ years of experience in developing and implementing Machine Learning models, specializing in Computer Vision and LLMs. Proven ability to research, experiment, and apply state-of-the-art deep learning techniques for image, video, voice, and text analytics.  Passionate about building scalable AI solutions and contributing to a team that values innovation and practicality Experienced with Machine Learning techniques (Textual, Voice, and Vision analytics), Computer Vision (object detection, object classification, object tracking, object identification, LVM), and LLMs (fine-tuning, training, and deploying models like GPT, BERT, LLaMA).",
   "skills": {
     "technical": [
       "Python",
       "PyTorch",
       "TensorFlow",
-      "Hugging Face",
-      "LLMs",
-      "GPT",
-      "BERT",
-      "LLaMA",
-      "Computer Vision",
-      "Object Detection",
+      "Deep Learning Frameworks",
+      "Computer Vision (object detection, object classification, object tracking)",
+      "LLMs (fine-tuning, training, deploying GPT, BERT, LLaMA)",
+      "ML Model Optimization",
+      "MLOps (Docker)",
       "C/C++",
-      "MLOps",
+      "MATLAB",
       "OpenCV",
       "NLP",
       "GAN",
-      "Diffusion Model",
-      "MATLAB",
-      "ROS",
-      "Docker",
-      "Innovation",
+      "Diffusion Models",
+      "Graph Convolution Networks",
+      "Linear Algebra",
+      "Statistics",
+      "Probability",
       "Collaboration",
       "Communication",
       "Problem-solving",
       "Leadership",
-      "Large Language Models (LLMs)",
-      "LVM",
-      "Natural Language Processing",
-      "Textual Analytics",
-      "Generative Adversarial Networks",
-      "AWS",
-      "Amazon Web Services",
-      "Google Cloud Platform (GCP)",
-      "Azure",
-      "Cloud Computing",
-      "Cloud-based ML Deployment",
-      "Probability",
-      "Statistical Modeling",
-      "Problem-Solving"
+      "Research",
+      "Machine Learning techniques (Textual, Voice, and Vision analytics)",
+      "MLOps (Docker, ML Model Serving, API development, CI/CD for model deployment)",
+      "Cloud-based ML deployment (AWS, Google Cloud, or Azure)",
+      "Guide",
+      "Computer Vision (object detection, object classification, object tracking, object identification, LVM)",
+      "LLMs (fine-tuning, training, and deploying models like GPT, BERT, LLaMA)",
+      "Document",
+      "Evaluate"
     ],
     "soft": [
-      "Innovation",
       "Collaboration",
       "Communication",
       "Problem-solving",
-      "Leadership"
+      "Leadership",
+      "Research"
     ],
     "languages": null,
     "certifications": null
@@ -66,10 +59,10 @@
       "location": "",
       "duration": "Sept 2022 - Present",
       "responsibilities": [
-        "Researched and implemented Deep Learning models for Voice Conversion, NLP, Computer Vision, and Graph Convolution Networks.",
-        "Applied GANs and Diffusion Models for image generation and manipulation.",
-        "Collaborated with National Science and Technology Development Agency (NSTDA) on Deep Learning research projects.",
-        "Served as a Teacher Assistant for a Deep Learning Bootcamp, guiding students on practical implementation and model optimization."
+        "Researched, experimented with, and applied state-of-the-art deep learning techniques for voice conversion, computer vision, and NLP.",
+        "Developed and implemented GANs, Diffusion Models, and Graph Convolution Networks for various applications.",
+        "Collaborated on deep learning research with the National Science and Technology Development Agency (NSTDA).",
+        "Served as a Teacher Assistant for a Deep Learning Bootcamp, guiding students on practical implementation of ML models."
       ],
       "achievements": null
     },
@@ -79,8 +72,8 @@
       "location": "",
       "duration": "June 2024 - Present",
       "responsibilities": [
-        "Benchmarked LLMs (OpenAI, Llama3, Mistral, Gemini AI) for Qualitative Analysis applications using Ollama and LLM Studio.",
-        "Fine-tuned transformer models for specific NLP tasks, improving performance and efficiency."
+        "Benchmarked LLMs (OpenAI, Llama3, Mistral, Gemini AI) for qualitative analysis applications using Ollama and LLM Studio.",
+        "Fine-tuned and deployed LLM models for specific tasks."
       ],
       "achievements": null
     },
@@ -90,9 +83,8 @@
       "location": "",
       "duration": "Oct 2023 - Present",
       "responsibilities": [
-        "Led the ORB-SLAM Refactoring project, overseeing a team and ensuring successful implementation.",
-        "Refactored SLAM algorithms, OpenCV, and Sparse Bundle Adjustment algorithms using C/C++.",
-        "Applied Linear/Non-Linear Optimization techniques to enhance performance and efficiency of SLAM algorithms."
+        "Led the ORB-SLAM refactoring project, overseeing a team and ensuring successful implementation.",
+        "Refactored SLAM algorithms, OpenCV, Sparse Bundle Adjustment algorithms, and linear/non-linear optimization technologies using C/C++."
       ],
       "achievements": null
     },
@@ -102,7 +94,9 @@
       "location": "",
       "duration": "Sept 2018 - Present",
       "responsibilities": [
-        "Founded the first robotics competition in Myanmar, fostering a community of robotics enthusiasts and promoting STEM education."
+        "Founded the first robotics competition in Myanmar, fostering a community of robotics enthusiasts.",
+        "Developed and implemented game rules for the competition.",
+        "Organized the robotics community in Myanmar for research purposes and STEM education initiatives."
       ],
       "achievements": null
     }
@@ -110,8 +104,8 @@
   "education": [
     {
       "degree": "Electronic and Infocommunication Engineering (Year 3)",
-      "institution": "King Mongkut\u2019s University of Technology Thonburi (KMUTT)",
-      "location": "Thailand",
+      "institution": "King Mongkuts University of Technology Thonburi (KMUTT)",
+      "location": "Bangmod, Thailand",
       "year": "2022 - Present",
       "gpa": null,
       "highlights": null
@@ -119,7 +113,7 @@
     {
       "degree": "Electronics Engineering",
       "institution": "WEST YANGON TECHNOLOGICAL UNIVERSITY",
-      "location": "Yangon",
+      "location": "Hlaing Thar Yar, Yangon",
       "year": "2015-2020",
       "gpa": null,
       "highlights": null
@@ -127,37 +121,23 @@
   ],
   "projects": [
     {
-      "name": "ORBSLAM Refactoring",
-      "description": "Refactored and optimized ORB-SLAM algorithms using C/C++ and OpenCV, improving performance and maintainability.",
-      "technologies": [
-        "C/C++",
-        "OpenCV",
-        "SLAM"
-      ],
-      "url": null,
-      "duration": null
-    },
-    {
       "name": "Voice Conversion For Alaryngeal Speakers using WavLM, KNN VC",
-      "description": "Developed a voice conversion system for alaryngeal speakers using WavLM and KNN VC, improving communication accessibility.",
-      "technologies": [
-        "WavLM",
-        "KNN VC",
-        "Voice Conversion",
-        "Deep Learning"
-      ],
+      "description": "Developed a voice conversion model for alaryngeal speakers leveraging WavLM and KNN VC.",
+      "technologies": [],
       "url": null,
       "duration": null
     },
     {
       "name": "Burmese GPT using Llama2 Model and WordPiece BPE Tokenizer",
-      "description": "Built a Burmese GPT model using Llama2 and WordPiece BPE Tokenizer, enabling natural language processing in Burmese.",
-      "technologies": [
-        "Llama2",
-        "WordPiece BPE",
-        "NLP",
-        "LLMs"
-      ],
+      "description": "Created a Burmese GPT model using the Llama2 architecture and WordPiece BPE tokenizer.",
+      "technologies": [],
+      "url": null,
+      "duration": null
+    },
+    {
+      "name": "ORBSLAM Refactoring",
+      "description": "Refactored the ORB-SLAM algorithm to improve performance and maintainability.",
+      "technologies": [],
       "url": null,
       "duration": null
     }

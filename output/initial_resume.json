@@ -7,34 +7,35 @@
     "website": null,
     "address": null
   },
-  "summary": "Highly motivated and results-oriented Research Assistant with 2+ years of experience in developing and implementing Machine Learning models, specializing in Computer Vision and LLMs. Proven ability to research, experiment, and apply state-of-the-art deep learning techniques for image, video, voice, and text analytics.  Passionate about building scalable AI solutions and contributing to a team that values innovation and practicality.",
+  "summary": "Highly motivated and results-oriented Research Assistant and aspiring Machine Learning Engineer with 2+ years of experience in Deep Learning, Computer Vision, and LLM applications. Proven ability to research, develop, and implement AI solutions using TensorFlow, PyTorch, and Hugging Face. Passionate about leveraging cutting-edge technologies to solve real-world problems and eager to contribute to a collaborative and innovative team.",
   "skills": {
     "technical": [
       "Python",
-      "PyTorch",
       "TensorFlow",
-      "Deep Learning Frameworks",
-      "Computer Vision (object detection, object classification, object tracking)",
-      "LLMs (fine-tuning, training, deploying GPT, BERT, LLaMA)",
-      "ML Model Optimization",
-      "MLOps (Docker)",
+      "PyTorch",
+      "Hugging Face",
       "C/C++",
-      "MATLAB",
+      "LLMs",
+      "GPT",
+      "BERT",
+      "LLaMA",
+      "Computer Vision",
+      "Object Detection",
       "OpenCV",
-      "NLP",
-      "GAN",
-      "Diffusion Models",
-      "Graph Convolution Networks",
+      "MLOps",
+      "MATLAB",
+      "ROS (Robot Operating System)",
+      "Digital Signal Processing",
       "Linear Algebra",
       "Statistics",
       "Probability"
     ],
     "soft": [
       "Collaboration",
-      "Communication",
+      "Innovation",
       "Problem-solving",
-      "Leadership",
-      "Research"
+      "Communication",
+      "Leadership"
     ],
     "languages": null,
     "certifications": null
@@ -46,10 +47,9 @@
       "location": "",
       "duration": "Sept 2022 - Present",
       "responsibilities": [
-        "Researched, experimented with, and applied state-of-the-art deep learning techniques for voice conversion, computer vision, and NLP.",
-        "Developed and implemented GANs, Diffusion Models, and Graph Convolution Networks for various applications.",
-        "Collaborated on deep learning research with the National Science and Technology Development Agency (NSTDA).",
-        "Served as a Teacher Assistant for a Deep Learning Bootcamp, guiding students on practical implementation of ML models."
+        "Researched and implemented Deep Learning models for Voice Conversion, NLP, Computer Vision, and Graph Convolution Networks.",
+        "Collaborated with National Science and Technology Development Agency (NSTDA) on Deep Learning research projects.",
+        "Served as a Teacher Assistant for a Deep Learning Bootcamp, guiding students on practical applications of AI."
       ],
       "achievements": null
     },
@@ -59,8 +59,7 @@
       "location": "",
       "duration": "June 2024 - Present",
       "responsibilities": [
-        "Benchmarked LLMs (OpenAI, Llama3, Mistral, Gemini AI) for qualitative analysis applications using Ollama and LLM Studio.",
-        "Fine-tuned and deployed LLM models for specific tasks."
+        "Benchmarked LLMs (OpenAI, Llama3, Mistral, Gemini AI) for Qualitative Analysis applications using Ollama and LLM Studio."
       ],
       "achievements": null
     },
@@ -70,8 +69,8 @@
       "location": "",
       "duration": "Oct 2023 - Present",
       "responsibilities": [
-        "Led the ORB-SLAM refactoring project, overseeing a team and ensuring successful implementation.",
-        "Refactored SLAM algorithms, OpenCV, Sparse Bundle Adjustment algorithms, and linear/non-linear optimization technologies using C/C++."
+        "Led the ORB-SLAM Refactoring project, refactoring SLAM algorithms, OpenCV, and Sparse Bundle Adjustment algorithms using C/C++.",
+        "Applied Linear/Non-Linear Optimization techniques to improve SLAM algorithm performance."
       ],
       "achievements": null
     },
@@ -81,9 +80,18 @@
       "location": "",
       "duration": "Sept 2018 - Present",
       "responsibilities": [
-        "Founded the first robotics competition in Myanmar, fostering a community of robotics enthusiasts.",
-        "Developed and implemented game rules for the competition.",
-        "Organized the robotics community in Myanmar for research purposes and STEM education initiatives."
+        "Founded the first robotics competition in Myanmar, fostering a community for research and STEM education.",
+        "Developed game rules and coordinated the competition logistics."
+      ],
+      "achievements": null
+    },
+    {
+      "title": "Electronic Engineering Intern",
+      "company": "M Space Corp",
+      "location": "Bangkok, Thailand",
+      "duration": "Feb 2022 - July 2022",
+      "responsibilities": [
+        "Deployed a Satellite Electronic Propulsion Sensor System and developed software for an Orbital Control Unit using ST Microcontrollers."
       ],
       "achievements": null
     }
@@ -92,7 +100,7 @@
     {
       "degree": "Electronic and Infocommunication Engineering (Year 3)",
       "institution": "King Mongkuts University of Technology Thonburi (KMUTT)",
-      "location": "Bangmod, Thailand",
+      "location": "Thailand",
       "year": "2022 - Present",
       "gpa": null,
       "highlights": null
@@ -100,7 +108,7 @@
     {
       "degree": "Electronics Engineering",
       "institution": "WEST YANGON TECHNOLOGICAL UNIVERSITY",
-      "location": "Hlaing Thar Yar, Yangon",
+      "location": "Yangon",
       "year": "2015-2020",
       "gpa": null,
       "highlights": null
@@ -108,23 +116,36 @@
   ],
   "projects": [
     {
+      "name": "ORBSLAM Refactoring",
+      "description": "Refactored ORB-SLAM algorithms and optimized performance using C++ and OpenCV.",
+      "technologies": [
+        "C++",
+        "OpenCV",
+        "SLAM"
+      ],
+      "url": null,
+      "duration": null
+    },
+    {
       "name": "Voice Conversion For Alaryngeal Speakers using WavLM, KNN VC",
-      "description": "Developed a voice conversion model for alaryngeal speakers leveraging WavLM and KNN VC.",
-      "technologies": [],
+      "description": "Developed a voice conversion model for alaryngeal speakers using WavLM and KNN VC.",
+      "technologies": [
+        "WavLM",
+        "KNN VC",
+        "Voice Analytics"
+      ],
       "url": null,
       "duration": null
     },
     {
       "name": "Burmese GPT using Llama2 Model and WordPiece BPE Tokenizer",
-      "description": "Created a Burmese GPT model using the Llama2 architecture and WordPiece BPE tokenizer.",
-      "technologies": [],
-      "url": null,
-      "duration": null
-    },
-    {
-      "name": "ORBSLAM Refactoring",
-      "description": "Refactored the ORB-SLAM algorithm to improve performance and maintainability.",
-      "technologies": [],
+      "description": "Built a Burmese GPT model using Llama2 and WordPiece BPE Tokenizer.",
+      "technologies": [
+        "Llama2",
+        "WordPiece BPE Tokenizer",
+        "LLMs",
+        "Text Generation"
+      ],
       "url": null,
       "duration": null
     }

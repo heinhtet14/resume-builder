@@ -1,5 +1,3 @@
-# Modifications to resume_builder/agent/react_agent.py
-
 import os
 from langchain.agents import AgentExecutor, create_react_agent
 from langchain.tools import Tool

@@ -9,5 +9,4 @@ wheels/
 
 # Virtual environments
 .venv
-
-/home/jerome/resume_builder/resume-builder/.env
+.env

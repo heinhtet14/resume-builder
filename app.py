@@ -139,7 +139,11 @@ def main():
                 # Generate optimized resume
                 status_text.text("Generating optimized resume...")
                 resume_generator = ResumeGenerator(api_key=api_key)
-                optimized_resume = resume_generator(resume, job)
+                optimized_resume = resume_generator({
+                    'resume': resume,
+                    'job': job,
+                    'keywords': []  # Optional keywords list
+                })
                 progress_bar.progress(75)
                 
                 # ATS optimization
